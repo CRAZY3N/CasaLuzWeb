@@ -88,7 +88,11 @@ li, a{
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 .header-content{grid-template-columns: 50% 50%;}
-.header-logo{}
+.header-logo{margin: 0 auto;}
+.header-logo img{
+    width: 50%;
+    margin-left: 2rem;
+}
 .header-menu{
     overflow: hidden;
     padding: 1rem 3rem;
@@ -128,12 +132,41 @@ li, a{
 
 .main{
     background-image: linear-gradient(to top, rgba(252, 244, 245, 0.2) 0%, rgba(227, 238, 255, 0.2) 99%, rgba(227, 238, 255, 0.2) 100%);
+    position: relative;
 }
 .main-content{
     margin: 3rem auto;
     border-radius: 3rem;
     border: 1rem solid #8db8fc;
     box-shadow: 0rem 0rem 3rem #000000;
+}
+.what{
+    z-index: 4;
+    position: fixed;
+    width: 5rem;
+    right: 3rem;
+    bottom: 4rem;
+
+}
+.what a{
+    padding: 0.5rem 1rem;
+    background-color: #00BB2D;
+    border-radius: 3rem;
+    font-size: 4rem;
+    color: #FFFFFF;
+    transition: all .1s ease;
+}
+.what a:hover{
+    background-color: #FFFFFF;
+    color: #00BB2D;
+}
+
+@media only screen and (min-width: 768px) {
+    .main{}
+    .what{
+        right: 7rem;
+        bottom: 7rem;
+    }
 }
 
 /* Hero */
@@ -165,7 +198,12 @@ li, a{
     margin: 1rem auto;
     border-radius: 1rem;
     box-shadow: 0.5rem 0.5rem 1.5rem #000000;
+    transition: all 3s ease;
 }
+.item:hover{
+    transform: scale(1.1);
+}
+
 .item h4{
     margin: 1rem auto;
 }
@@ -174,3 +212,39 @@ li, a{
     margin: 0.5rem auto;
 }
 
+/* Footer */
+.footer{
+    padding: 2rem 1rem;
+    background: #8db8fc;
+}
+
+.footer-logo{
+    margin: auto auto;
+    max-width: 50%;
+}
+
+.footer-nav{
+    display: block;
+}
+.footer-nav a{
+    display: block;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer{}
+    .footer-logo{max-width: 30%;}
+    .footer-nav{}
+}
+
+/* Made by */
+.made{
+    text-align: center;
+    background: #000000;
+    padding: 2rem 0;
+    margin: auto;
+    color: #FFFFFF;
+}
