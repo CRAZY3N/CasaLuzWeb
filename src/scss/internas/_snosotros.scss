@@ -1,0 +1,41 @@
+/* Nosotros */
+
+.nosotros{
+    h1, h2{font-weight: $black;}
+
+    .mision{
+        margin: 2rem auto;
+        border-radius: 2rem;
+        box-shadow: 0.5rem 0.5rem 1rem #979696;
+    }
+}
+
+.iconos{
+    margin: 2rem auto;
+    @include grid(3, 2rem);
+    
+}
+
+.icono{
+    width: 100%;
+    margin: 0 auto;
+    h4{
+        font-size: $bold;
+        font-size: 2rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    p{
+        text-align: center;
+        font-size: 6rem;
+        color: lighten($color: $azul, $amount: 10);
+        font-weight: $delgada;
+        text-shadow: 1rem 1rem 1rem #a0a0a0;
+    }
+
+    @include tablet{
+        h4{font-size: 3rem;}
+        p{font-size: 10rem;}
+    }
+}
+
