@@ -1,0 +1,51 @@
+/* Productos */
+.pProductos{
+    margin: 2rem auto 1rem auto;
+    padding: 0 0 2rem 0;
+    @include grid(2, 2rem);
+    @include tablet{
+        @include grid(4, 2rem);
+    }
+}
+
+.productos.cate{
+    background: lighten($color: $azul, $amount: 50);
+    height: 100%;
+    @include grid(2, 1rem);
+    @include tablet{
+        height: auto;
+        padding: 3rem 0;
+        @include grid(4, 1rem);
+    }
+}
+
+.catedescripcion{
+    color: $azul;
+    background: darken($color: $blanco, $amount: 5);
+    border-radius: 1rem;
+    border: 0.3rem solid $azul;
+    box-shadow: 0rem 0rem 2rem lighten($color: $negro, $amount: 10);
+    margin: 1rem auto;
+    h3{
+        margin: 0 auto;
+    }
+    p{
+        margin: 0 auto;
+        text-align: center;
+        color: $azul;
+        padding: 0rem 2rem;
+    }
+}
+
+.producto{
+    margin: 1rem auto;
+    padding: 1rem;
+}
+.categoria{height: auto;}
+
+.categoria.cate{
+    height: auto;
+}
+.pProducto{
+
+}
