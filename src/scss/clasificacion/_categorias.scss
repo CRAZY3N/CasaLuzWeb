@@ -5,8 +5,12 @@
 
 .categoria{
     background: darken($color: $color-white, $amount: 20);
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     margin: 0.5rem 0.3rem;
+    h2{
+        color: darken($color-white, 70);
+        margin: 0.5rem auto;
+    }
     picture{
         width: 100%;
         img{

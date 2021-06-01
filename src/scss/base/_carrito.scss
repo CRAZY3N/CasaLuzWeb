@@ -18,5 +18,8 @@
         border-radius: 1rem;
     }
     
+    @include telefono{
+        height: 30vh;
+    }
     
 }

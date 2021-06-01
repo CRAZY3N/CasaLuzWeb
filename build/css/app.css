@@ -7983,6 +7983,9 @@ html {
 body {
   background: #5a9cfe; }
 
+.made .made h4 {
+  color: #FFFFFF; }
+
 .carrito {
   border: 0.2rem solid lighter(#014dbe, 1);
   background: #277dfe;
@@ -7999,6 +8002,9 @@ body {
     margin: 0rem;
     border: 0.15rem solid #014dbe;
     border-radius: 1rem; }
+  @media (min-width: 768px) {
+    .carrito {
+      height: 30vh; } }
 
 .categorias {
   margin: 1rem auto 3rem auto;
@@ -8006,8 +8012,11 @@ body {
 
 .categoria {
   background: #cccccc;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   margin: 0.5rem 0.3rem; }
+  .categoria h2 {
+    color: #4d4d4d;
+    margin: 0.5rem auto; }
   .categoria picture {
     width: 100%; }
     .categoria picture img {

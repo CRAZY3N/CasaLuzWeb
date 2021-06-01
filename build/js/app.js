@@ -1,7 +1,7 @@
 'use strict'
 
 window.addEventListener('load', function(){
-    if(screen.width <= 768){
+    if(this.screen.width < 769){
         new Glider(document.getElementById('glider-single'), {
             slidesToShow: 1,
             dots: '#dots',
