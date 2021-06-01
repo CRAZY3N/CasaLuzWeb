@@ -1,0 +1,29 @@
+{
+  "name": "casaluzweb",
+  "version": "3.0.0",
+  "description": "CasaLuz, website, articulos para el hogar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRAZY3N/CasaLuzWeb.git"
+  },
+  "author": "EmmKall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CRAZY3N/CasaLuzWeb/issues"
+  },
+  "homepage": "https://github.com/CRAZY3N/CasaLuzWeb#readme",
+  "devDependencies": {
+    "cssmin": "^0.4.3",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^1.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-webp": "^4.0.1"
+  }
+}
