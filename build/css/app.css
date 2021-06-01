@@ -7977,3 +7977,44 @@ textarea.form-control-lg {
     display: none !important; } }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
+html {
+  /* font-size: 62.5%; */ }
+
+body {
+  background: #5a9cfe; }
+
+.carrito {
+  border: 0.2rem solid lighter(#014dbe, 1);
+  background: #277dfe;
+  padding: 0 1rem;
+  height: 36vh;
+  width: 100%;
+  margin: 0 auto; }
+  .carrito .carrito-item {
+    margin: auto 0.2rem;
+    padding: 0 0.5rem; }
+  .carrito img {
+    background: #01388b;
+    height: 25vh;
+    margin: 0rem;
+    border: 0.15rem solid #014dbe;
+    border-radius: 1rem; }
+
+.categorias {
+  margin: 1rem auto 3rem auto;
+  background: #f2f2f2; }
+
+.categoria {
+  background: #cccccc;
+  padding: 0.5rem;
+  margin: 0.5rem 0.3rem; }
+  .categoria picture {
+    width: 100%; }
+    .categoria picture img {
+      padding: 0.5rem;
+      width: 100%;
+      border-radius: 1rem;
+      transition: all ease 2s; }
+      .categoria picture img:hover {
+        transform: scale(1.1);
+        opacity: 0.8; }

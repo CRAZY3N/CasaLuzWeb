@@ -64,4 +64,5 @@ exports.hola = hola;
 exports.compilarSCSS = compilarSCSS;
 exports.minIMG = minIMG;
 exports.concatJS = concatJS;
+exports.verArchivos = verArchivos;
 exports.default = parallel( hola, compilarSCSS, concatJS, minIMG, verArchivos );

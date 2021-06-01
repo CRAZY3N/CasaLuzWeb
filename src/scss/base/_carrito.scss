@@ -1,0 +1,22 @@
+.carrito{
+    border: 0.2rem solid lighter($main-color, 1);
+    background: lighten($main-color, 20);
+    padding: 0 1rem;
+    height: 36vh;
+    width: 100%;
+    margin: 0 auto;
+    
+    .carrito-item{
+        margin: auto 0.2rem;
+        padding: 0 0.5rem;
+    }
+    img{
+        background: darken($main-color, 10);
+        height: 25vh;
+        margin: 0rem;
+        border: 0.15rem solid $main-color;
+        border-radius: 1rem;
+    }
+    
+    
+}

@@ -1,0 +1,23 @@
+.categorias{
+    margin:  1rem auto 3rem auto;
+    background: darken($color: $color-white, $amount: 5);
+}
+
+.categoria{
+    background: darken($color: $color-white, $amount: 20);
+    padding: 0.5rem;
+    margin: 0.5rem 0.3rem;
+    picture{
+        width: 100%;
+        img{
+            padding: 0.5rem;
+            width: 100%;
+            border-radius: 1rem;
+            transition: all ease 2s;
+            &:hover{
+                transform: scale(1.1);
+                opacity: 0.8;
+            }
+        }
+    }
+}
