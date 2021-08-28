@@ -5,3 +5,8 @@
 }
 
 
+@mixin grid($columns, $gap){
+    display: grid;
+    grid-column: repeat($columns, 1fr);
+    gap: $gap;
+}

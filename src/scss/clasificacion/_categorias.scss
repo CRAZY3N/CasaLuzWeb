@@ -1,26 +1,60 @@
 .categorias{
-    margin:  1rem auto 3rem auto;
-    background: darken($color: $color-white, $amount: 5);
+    padding: 1rem;
+    margin: 2rem auto;
 }
 
-.categoria{
-    background: darken($color: $color-white, $amount: 20);
-    padding: 0.5rem 1rem;
-    margin: 0.5rem 0.3rem;
-    h2{
-        color: darken($color-white, 70);
-        margin: 0.5rem auto;
+.categoria-group{
+    margin: 1rem auto;
+    background: $color-white;
+    a{
+        color: $color-white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        background: $main-color;
+        &:hover{
+            color: $color-white;
+            background: lighten($color: $main-color, $amount: 10)
+        }
     }
-    picture{
+}
+
+.header-categoria{
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    border-top: 0.1rem solid $main-color;
+    border-bottom: 0.1rem solid $main-color;
+}
+
+.categoria-items{
+    padding: 1rem 0.1rem;
+    img{
+        background: $color-white;
         width: 100%;
-        img{
+    }
+
+    .card{
+        background: $second-color;
+        padding: 0;
+        width: 45%;
+        @include telefono{
+            width: 23%;
+        }
+    }
+
+    .card-body{
+        padding: 0 1rem;
+        a{
+            margin: 1rem auto;
+            font-weight: bold;
+            text-transform: uppercase;
             padding: 0.5rem;
-            width: 100%;
-            border-radius: 1rem;
-            transition: all ease 2s;
+            background: $color-white;
+            color: $main-color;
+            transition: ease-in-out all 0.3s;
+
             &:hover{
-                transform: scale(1.1);
-                opacity: 0.8;
+                background: $main-color;
+                color: $color-white;
             }
         }
     }
