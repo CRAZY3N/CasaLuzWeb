@@ -22,11 +22,11 @@ const path = {
     buildJS: 'build/js',
 }
 
-function hola( done )
+/* function hola( done )
 {
     console.log('Hola');
     done();
-}
+} */
 
 function compilarSCSS()
 {
@@ -60,9 +60,9 @@ function verArchivos()
     watch( path.srcJS, concatJS );
 }
 
-exports.hola = hola;
+/* exports.hola = hola; */
 exports.compilarSCSS = compilarSCSS;
 exports.minIMG = minIMG;
 exports.concatJS = concatJS;
 exports.verArchivos = verArchivos;
-exports.default = parallel( hola, compilarSCSS, concatJS, minIMG, verArchivos );
+exports.default = parallel(/*  hola,  */compilarSCSS, concatJS, minIMG, verArchivos );

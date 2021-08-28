@@ -16,7 +16,7 @@ window.addEventListener('load', function(){
           });
     } else {
         new Glider(document.getElementById('glider-single'), {
-            slidesToShow: 3,
+            slidesToShow: 2,
             dots: '#dots',
             draggable: true,
             arrows: {

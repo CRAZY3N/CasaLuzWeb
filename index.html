@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,478 +10,122 @@
     <link rel="stylesheet" href="build/css/app.min.css">
     <title>Casa Luz</title>
 </head>
+
 <body>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Casa Luz <img class="img-fluid" width="30" src="build/icon/logo.PNG" alt=""> </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a target="_blank" href="https://www.facebook.com/Casa-Luz-108651167569445/" class="nav-link active" aria-current="page" href="#">Facebook</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li> -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Categorías
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Muebles</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Electrónica</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Electrodomesticos</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a href="#" class="dropdown-item">Blancos</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a href="#" class="dropdown-item">Linea Blanca</a></li>
-              <li><hr class="dropdown-divider"></li>
-            </ul>
-          </li>
-          <!-- <li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li> -->
-        </ul>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid py-2 d-flex justify-content-between">
+                <div class="">
+                    <a class="navbar-brand" href="/">Casa Luz <img class="img-fluid" width="30" src="build/icon/logo.PNG" alt=""> </a>
+                </div>
+                <div class="d-flex menu fw-bold text-uppercase text-white justify-content-between">
+                    <a class="btn btn-primary mx-1" href="#">Inicio</a>
+                    <a class="btn btn-primary mx-1" href="#">Nosotros</a>
+                </div>
+            </div>
+        </nav>
+        <nav class="submenu navbar d-flex justify-content-center navbar-expand-lg navbar-dark bg-primary">
+            <li class="mx-3"><a href="#">Muebles</a></li>
+            <li class="mx-3"><a href="#">Electronica</a></li>
+            <li class="mx-3"><a href="#">Electrodomesticos</a></li>
+            <li class="mx-3"><a href="#">Blancos</a></li>
+            <li class="mx-3"><a href="#">Linea Blanca</a></li>
+        </nav>
+
+        <div class="carrito container">
+            <div data-name="Single Item" class="glider-contain">
+                <div class="gradient-border-bottom">
+                    <div class="gradient-border">
+
+                        <div class="glider" id="glider-single">
+                            <div class="carrito-item">
+                                <picture>
+                                    <source src="build/img/slider/card01.webp" type="image/webp">
+                                    <source src="build/img/slider/card01.jpg" type="image/jpg">
+                                    <img src="build/img/slider/card01.webp" alt="carrito">
+                                </picture>
+                            </div>
+                            <div class="carrito-item">
+                                <picture>
+                                    <source src="build/img/slider/card02.webp" type="image/webp">
+                                    <source src="build/img/slider/card02.jpg" type="image/jpg">
+                                    <img src="build/img/slider/card02.jpg" alt="carrito">
+                                </picture>
+                            </div>
+                            <div class="carrito-item">
+                                <picture>
+                                    <source src="build/img/slider/card03.webp" type="image/webp">
+                                    <source src="build/img/slider/card03.jpg" type="image/jpg">
+                                    <img src="build/img/slider/card03.jpg" alt="carrito">
+                                </picture>
+                            </div>
+                            <div class="carrito-item">
+                                <picture>
+                                    <source src="build/img/slider/card04.webp" type="image/webp">
+                                    <source src="build/img/slider/card04.jpg" type="image/jpg">
+                                    <img src="build/img/slider/card04.jpg" alt="carrito">
+                                </picture>
+                            </div>
+                            <div class="carrito-item">
+                                <picture>
+                                    <source src="build/img/slider/card05.webp" type="image/webp">
+                                    <source src="build/img/slider/card05.jpg" type="image/jpg">
+                                    <img src="build/img/slider/card05.jpg" alt="carrito">
+                                </picture>
+                            </div>
+                            <div class="carrito-item">
+                                <picture>
+                                    <source src="build/img/slider/card06.webp" type="image/webp">
+                                    <source src="build/img/slider/card06.jpg" type="image/jpg">
+                                    <img src="build/img/slider/card06.jpg" alt="carrito">
+                                </picture>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <button role="button" aria-label="Previous" class="glider-prev" id="glider-prev"><i class="fa fa-chevron-left"></i></i></button>
+                <button role="button" aria-label="Next" class="glider-next" id="glider-next"><i class="fa fa-chevron-right"></i></i></button>
+                <div id="dots"></div>
+            </div>
         </div>
-      </div>
-    </nav>
+    </header>
 
-    <div class="carrito container">
-      <div data-name="Single Item" class="glider-contain">
-        <div class="gradient-border-bottom">
-          <div class="gradient-border">
-
-            <div class="glider" id="glider-single">
-              <div class="carrito-item">
-                <picture>
-                  <source src="build/img/Car01.webp" type="image/webp">
-                  <source src="build/img/Car01.jpg" type="image/jpg">
-                  <img src="build/img/Car01.jpg" alt="carrito">
-                </picture>
-              </div>
-              <div class="carrito-item">
-                <picture>
-                  <source src="build/img/Car02.webp" type="image/webp">
-                  <source src="build/img/Car02.jpg" type="image/jpg">
-                  <img src="build/img/Car02.jpg" alt="carrito">
-                </picture>
-              </div>
-              <div class="carrito-item">
-                <picture>
-                  <source src="build/img/Car03.webp" type="image/webp">
-                  <source src="build/img/Car03.jpg" type="image/jpg">
-                  <img src="build/img/Car03.jpg" alt="carrito">
-                </picture>
-              </div>
-              <div class="carrito-item">
-                <picture>
-                  <source src="build/img/Car04.webp" type="image/webp">
-                  <source src="build/img/Car04.jpg" type="image/jpg">
-                  <img src="build/img/Car04.jpg" alt="carrito">
-                </picture>
-              </div>
-              <div class="carrito-item">
-                <picture>
-                  <source src="build/img/Car05.webp" type="image/webp">
-                  <source src="build/img/Car05.jpg" type="image/jpg">
-                  <img src="build/img/Car05.jpg" alt="carrito">
-                </picture>
-              </div>
-              <div class="carrito-item">
-                <picture>
-                  <source src="build/img/Car06.webp" type="image/webp">
-                  <source src="build/img/Car06.jpg" type="image/jpg">
-                  <img src="build/img/Car06.jpg" alt="carrito">
-                </picture>
-              </div>
-              <div class="carrito-item">
-                <picture>
-                  <source src="build/img/Car07.webp" type="image/webp">
-                  <source src="build/img/Car07.jpg" type="image/jpg">
-                  <img src="build/img/Car07.jpg" alt="carrito">
-                </picture>
-              </div>
-              <div class="carrito-item">
-                <picture>
-                  <source src="build/img/Car08.webp" type="image/webp">
-                  <source src="build/img/Car08.jpg" type="image/jpg">
-                  <img src="build/img/Car08.jpg" alt="carrito">
-                </picture>
-              </div>
-              <div class="carrito-item">
-                <picture>
-                  <source src="build/img/Car09.webp" type="image/webp">
-                  <source src="build/img/Car09.jpg" type="image/jpg">
-                  <img src="build/img/Car09.jpg" alt="carrito">
-                </picture>
-              </div>
+    <section class="menu-categorias">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-cate-item cate-item-1 col-4 col-md-2 text-center">
+                    <picture>
+                        <source src="build/img/categorias/categoria01.webp" type="image/webp">
+                        <source src="build/img/categorias/categoria01.jpg" type="image/jpg">
+                        <img src="build/img/categorias/categoria01.webp" alt="Muebles">
+                    </picture>
+                    <h4>Muebles</h4>
+                </div>
+                <div class="menu-cate-item cate-item-2 col-4 col-md-2">
+    
+                </div>
+                <div class="menu-cate-item cate-item-3 col-4 col-md-2">
+    
+                </div>
+                <div class="menu-cate-item cate-item-4 col-4 col-md-2">
+    
+                </div>
+                <div class="menu-cate-item cate-item-5 col-4 col-md-2">
+    
+                </div>
             </div>
-          </div>
         </div>
-        <button role="button" aria-label="Previous" class="glider-prev" id="glider-prev"><i class="fa fa-chevron-left"></i></i></button>
-        <button role="button" aria-label="Next" class="glider-next" id="glider-next"><i class="fa fa-chevron-right"></i></i></button>
-        <div id="dots"></div>
-      </div>
-    </div>    
-  </header>
-
-  <div class="container mb-5">
-
-    <div class="row categorias">
-
-      <!-- Muebles -->
-      <div class="categoria col-sm-12 col-md-5 ">
-        <h2 class="h2 text-center">Muebles</h2>
-        <div class="row">
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/mue01.webp" type="image/webp">
-                <source src="build/img/mue01.jpg" type="image/jpg">
-                <img src="build/img/mue01.webp" alt="producto">
-              </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">RECAMARA</h5>
-                <p class="card-text">Recamara matrimonial, color: Natural, Chocolate, Nogal e incluye un par de buros.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/mue02.webp" type="image/webp">
-                <source src="build/img/Mue11.jpg" type="image/jpg">
-                <img src="build/img/Mue11.webp" alt="producto">
-              </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">SALA</h5>
-                <p class="card-text">Sala elegante negro con rojo, 2 piezas, incluye 9 cojines.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/mue03.webp" type="image/webp">
-                <source src="build/img/mue03.jpg" type="image/jpg">
-                <img src="build/img/mue03.webp" alt="producto">
-            </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Alacena</h5>
-                <p class="card-text">Alacena metropolitana color chocolate, 80x125x42 cm.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/mue04.webp" type="image/webp">
-                <source src="build/img/mue04.png" type="image/png">
-                <img src="build/img/mue04.webp" alt="producto">
-            </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Ropero</h5>
-                <p class="card-text">Ropero 3 piezas, color natural, 4 cajones.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <a href="#" class="my-2 btn btn-primary">Ver más</a>
-
-      </div>
-      <!-- Electrónica -->
-      <div class="categoria col ">
-        <h2 class="h2 text-center">Electrónica</h2>
-        <div class="row">
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/Elec01.webp" type="image/webp">
-                <source src="build/img/Elec01.jpg" type="image/jpg">
-                <img src="build/img/Elec01.webp" alt="producto">
-            </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Smart TV</h5>
-                <p class="card-text">Smart TV SANSUI desde 32" a 50", conexión WiFi, entradas USB.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/Elec02.web" type="image/webp">
-                <source src="build/img/Elec02.jpg" type="image/jpg">
-                <img src="build/img/Elec02.webp" alt="producto">
-            </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Smart TV</h5>
-                <p class="card-text">Smart TV HISENSE, de 32" a 50", Pantalla LED, SLIM, conexión WiFi, entrada USB.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/Elec03.webp" type="image/webp">
-                <source src="build/img/Elec03.jpg" type="image/jpg">
-                <img src="build/img/Elec03.webp" alt="producto">
-            </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Bocina</h5>
-                <p class="card-text">Bocina KRS-LINK 8", de 7,200 Whats, con control, Bluetooth, AUX.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/Elec05.webp" type="image/webp">
-                <source src="build/img/Elec05.jpg" type="image/jpg">
-                <img src="build/img/Elec05.webp" alt="producto">
-            </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">STEREO</h5>
-                <p class="card-text">Stereo Panasonic, 2 amplificadores, iluminación de 3 colores, tecnólogia bluetooth.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <a href="#" class="my-2 btn btn-primary">Ver más</a>
-
-      </div>
-      <!-- Electrodomésticos -->
-      <div class="categoria col-sm-12 col-md-6">
-        <h2 class="h2 text-center">Electródomesticos</h2>
-        <div class="row">
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/ele08.webp" type="image/webp">
-                <source src="build/img/ele08.jpg" type="image/jpg">
-                <img src="build/img/ele08.jpg" alt="producto">
-            </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Licuadora</h5>
-                <p class="card-text">Licuadora vaseo de vidrio, Color Negra, Roja y Blanca.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/ele09.jpg" type="image/webp">
-                <source src="build/img/ele09.jpg" type="image/jpg">
-                <img src="build/img/ele09.jpg" alt="producto">
-              </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Maxitriana</h5>
-                <p class="card-text">Maxitriana tubular, colores blanca, vino y Chocolate 123x75x44cm.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/sarten01.webp" type="image/webp">
-                <source src="build/img/sarten01.jpg" type="image/jpg">
-                <img src="build/img/sarten01.webp" alt="producto">
-              </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Sartén</h5>
-                <p class="card-text">Sartén eléctrico, color gris, modelo CKSTSK3000 40x30cm.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/extrator01.webp" type="image/webp">
-                <source src="build/img/extrator01.jpg" type="image/jpg">
-                <img src="build/img/extrator01.webp" alt="producto">
-            </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Extractor</h5>
-                <p class="card-text">Extractor de 1.5 Lts, colores Rojo y Blanco, Potencia de 400 Whatts.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <a href="#" class="my-2 btn btn-primary">Ver más</a>
-        
-      </div>
-      <!-- Blancos -->
-      <div class="categoria col ">
-        <h2 class="h2 text-center">Blancos</h2>
-        <div class="row">
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/tel01.webp" type="image/webp">
-                <source src="build/img/tel01.jpg" type="image/jpg">
-                <img src="build/img/tel01.webp" alt="producto">
-              </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Sábanas</h5>
-                <p class="card-text">Sábanas de franela, tamaños Individual y Matrimonial, diferentes modelos.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/tel02.webp" type="image/webp">
-                <source src="build/img/tel02.jpgp" type="image/jpg">
-                <img src="build/img/tel02.webp" alt="producto">
-              </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Sábanas</h5>
-                <p class="card-text">Sábanas percal,, tamaños individual, matrimonial y king size.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/tel03.webp" type="image/webp">
-                <source src="build/img/tel03.jgp" type="image/jpg">
-                <img src="build/img/tel03.webp" alt="producto">
-              </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Edredones</h5>
-                <p class="card-text">Edredones Providencia, tamaños individual y matrimonial, modelos variados.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="card" >
-              <picture>
-                <source src="build/img/tel04.webp" type="image/webp">
-                <source src="build/img/tel04.jpg" type="image/jpg">
-                <img src="build/img/tel04.webp" alt="producto">
-              </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Edredon</h5>
-                <p class="card-text">Edredon matrimonial, modelo floriado, colores morado, con rosa.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <a href="#" class="my-2 btn btn-primary">Ver más</a>
-
-      </div>
-      <!-- Linea Blanca -->
-      <div class="categoria col-12 ">
-        <h2 class="h2 text-center">Linea Blanca</h2>
-        <div class="row">
-
-          <div class="col-6 col-md-3">
-            <div class="card" >
-              <picture>
-                <source src="build/img/Lin04.webp" type="image/webp">
-                <source src="build/img/Lin04.jpg" type="image/jpg">
-                <img src="build/img/Lin04.webp" alt="producto">
-              </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Horno de Microondas</h5>
-                <p class="card-text">Horno de microondas, DAEWO, cuenta con 4 opciones de cocina rápida.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-md-3">
-            <div class="card" >
-              <picture>
-                <source src="build/img/tel02.webp" type="image/webp">
-                <source src="build/img/tel02.jpgp" type="image/jpg">
-                <img src="build/img/tel02.webp" alt="producto">
-              </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Sábanas</h5>
-                <p class="card-text">Sábanas percal,, tamaños individual, matrimonial y king size.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-md-3">
-            <div class="card" >
-              <picture>
-                <source src="build/img/tel03.webp" type="image/webp">
-                <source src="build/img/tel03.jgp" type="image/jpg">
-                <img src="build/img/tel03.webp" alt="producto">
-              </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Edredones</h5>
-                <p class="card-text">Edredones Providencia, tamaños individual y matrimonial, modelos variados.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-md-3">
-            <div class="card" >
-              <picture>
-                <source src="build/img/tel04.webp" type="image/webp">
-                <source src="build/img/tel04.jpg" type="image/jpg">
-                <img src="build/img/tel04.webp" alt="producto">
-              </picture>
-              <div class="card-body">
-                <h5 class="card-title text-center">Edredon</h5>
-                <p class="card-text">Edredon matrimonial, modelo floriado, colores morado, con rosa.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <a href="#" class="my-2 btn btn-primary">Ver más</a>
-
-      </div>
-
-    </div>
-
-  </div>
+    </section>
 
 
-    <footer>
-      <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Casa Luz <img class="img-fluid" width="30" src="build/icon/logo.PNG" alt=""></a>
-          <a target="_blank" class="navbar-brand" href="https://api.whatsapp.com/send?phone=525518155234&text=Quisiera%20solicitar%20informaci%C3%B3n"><img class="img-fluid" width="30" src="build/icon/whatsapp.svg" alt=""></a>
-          <a target="_blank" class="navbar-brand" href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n"><img class="img-fluid" width="30" src="build/icon/whatsapp.svg" alt=""></a>
-          <a href="https://emmdeveloper.netlify.app/" target="_blank"><h4 class="text-light">Hecho por <span>EmmKall</span></h4></a>
-        </div>
-      </nav>
-    </footer> 
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="build/js/glider.min.js"></script>
     <script src="build/js/app.js"></script>
 </body>
+
 </html>
