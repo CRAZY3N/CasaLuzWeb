@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="shortcut icon" href="build/icon/logo.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="build/css/glider.min.css">
+    <link rel="stylesheet" href="build/css/app.min.css">
+    <title>Casa Luz</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid py-2 d-flex justify-content-between">
+                <div class="">
+                    <a class="navbar-brand" href="/">Casa Luz <img class="img-fluid" width="30" src="build/icon/logo.PNG" alt=""> </a>
+                </div>
+                <div class="d-flex menu fw-bold text-uppercase text-white justify-content-between">
+                    <a class="btn btn-primary mx-1" href="/">Inicio</a>
+                    <a class="btn btn-primary mx-1" href="sobre.html">Nosotros</a>
+                </div>
+            </div>
+        </nav>
+        <nav class="submenu navbar d-flex justify-content-center navbar-expand-lg navbar-dark bg-primary">
+            <li class="mx-3"><a href="muebles.html">Muebles</a></li>
+            <li class="mx-3"><a href="electronica.html">Electronica</a></li>
+            <li class="mx-3"><a href="electrodomesticos.html">Electrodomesticos</a></li>
+            <li class="mx-3"><a href="blancos.html">Blancos</a></li>
+            <li class="mx-3"><a href="lineablanca.html">Linea Blanca</a></li>
+        </nav>
+
+        <div class="carrito container">
+            <div data-name="Single Item" class="glider-contain">
+                <div class="gradient-border-bottom">
+                    <div class="gradient-border">
+
+                        <div class="glider" id="glider-single">
+                            <div class="carrito-item">
+                                <picture>
+                                    <source src="build/img/slider/card01.webp" type="image/webp">
+                                    <source src="build/img/slider/card01.jpg" type="image/jpg">
+                                    <img src="build/img/slider/card01.webp" alt="carrito">
+                                </picture>
+                            </div>
+                            <div class="carrito-item">
+                                <picture>
+                                    <source src="build/img/slider/card02.webp" type="image/webp">
+                                    <source src="build/img/slider/card02.jpg" type="image/jpg">
+                                    <img src="build/img/slider/card02.jpg" alt="carrito">
+                                </picture>
+                            </div>
+                            <div class="carrito-item">
+                                <picture>
+                                    <source src="build/img/slider/card03.webp" type="image/webp">
+                                    <source src="build/img/slider/card03.jpg" type="image/jpg">
+                                    <img src="build/img/slider/card03.jpg" alt="carrito">
+                                </picture>
+                            </div>
+                            <div class="carrito-item">
+                                <picture>
+                                    <source src="build/img/slider/card04.webp" type="image/webp">
+                                    <source src="build/img/slider/card04.jpg" type="image/jpg">
+                                    <img src="build/img/slider/card04.jpg" alt="carrito">
+                                </picture>
+                            </div>
+                            <div class="carrito-item">
+                                <picture>
+                                    <source src="build/img/slider/card05.webp" type="image/webp">
+                                    <source src="build/img/slider/card05.jpg" type="image/jpg">
+                                    <img src="build/img/slider/card05.jpg" alt="carrito">
+                                </picture>
+                            </div>
+                            <div class="carrito-item">
+                                <picture>
+                                    <source src="build/img/slider/card06.webp" type="image/webp">
+                                    <source src="build/img/slider/card06.jpg" type="image/jpg">
+                                    <img src="build/img/slider/card06.jpg" alt="carrito">
+                                </picture>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <button role="button" aria-label="Previous" class="glider-prev" id="glider-prev"><i class="fa fa-chevron-left"></i></i></button>
+                <button role="button" aria-label="Next" class="glider-next" id="glider-next"><i class="fa fa-chevron-right"></i></i></button>
+                <div id="dots"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="menu-categorias">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-cate-item cate-item-1 col-4 col-md-2 text-center">
+                    <a href="muebles.html">
+                        <picture>
+                            <source src="build/img/categorias/categoria01.webp" type="image/webp">
+                            <source src="build/img/categorias/categoria01.jpg" type="image/jpg">
+                            <img src="build/img/categorias/categoria01.webp" alt="Muebles">
+                        </picture>
+                        <h4>Muebles</h4>
+                    </a>
+                </div>
+                <div class="menu-cate-item cate-item-2 col-4 col-md-2">
+                    <a href="electronica.html">
+                        <picture>
+                            <source src="build/img/categorias/categoria02.webp" type="image/webp">
+                            <source src="build/img/categorias/categoria02.jpg" type="image/jpg">
+                            <img src="build/img/categorias/categoria02.webp" alt="electrónica">
+                        </picture>
+                        <h4>Electrónica</h4>
+                    </a>
+                </div>
+                <div class="menu-cate-item cate-item-3 col-4 col-md-2">
+                    <a href="lineablanca.html">
+                        <picture>
+                            <source src="build/img/categorias/categoria03.webp" type="image/webp">
+                            <source src="build/img/categorias/categoria03.jpg" type="image/jpg">
+                            <img src="build/img/categorias/categoria03.webp" alt="linea blanca">
+                        </picture>
+                        <h4>Linea Blanca</h4>
+                    </a>
+                </div>
+                <div class="menu-cate-item cate-item-4 col-4 col-md-2">
+                    <a href="electrodomesticos.html">
+                        <picture>
+                            <source src="build/img/categorias/categoria05.webp" type="image/webp">
+                            <source src="build/img/categorias/categoria05.jpg" type="image/jpg">
+                            <img src="build/img/categorias/categoria05.webp" alt="electrodomesticos">
+                        </picture>
+                        <h4 class="fs-6 mx-0">Electrodomesticos</h4>
+                    </a>
+                </div>
+                <div class="menu-cate-item cate-item-5 col-4 col-md-2">
+                    <a href="blancos.html">
+                        <picture>
+                            <source src="build/img/categorias/categoria04.webp" type="image/webp">
+                            <source src="build/img/categorias/categoria04.jpg" type="image/jpg">
+                            <img src="build/img/categorias/categoria04.webp" alt="blancos">
+                        </picture>
+                        <h4 class="mt-4">Blancos</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="text-center my-3 py-2 text-primary fw-bold bg-light">Muebles</h1>
+
+    <div class="row bg-primary py-2 d-flex justify-content-around">
+        <a href="#salas" class="col-3 col-md-2 text-white btn fw-bold text-uppercase mx-1">Salas</a>
+        <a href="#recamaras" class="col-3 col-md-2 text-white btn fw-bold text-uppercase mx-1">Recamaras</a>
+        <a href="#bases" class="col-3 col-md-2 text-white btn fw-bold text-uppercase mx-1">Bases Tubulares</a>
+        <a href="#colchones" class="col-3 col-md-2 text-white btn fw-bold text-uppercase mx-1">COlchones</a>
+        <a href="#comedores" class="col-3 col-md-2 text-white btn fw-bold text-uppercase mx-1">Comedores</a>
+        <a href="#sillas" class="col-3 col-md-2 text-white btn fw-bold text-uppercase mx-1">Sillas</a>
+        <a href="#vitrinas" class="col-3 col-md-2 text-white btn fw-bold text-uppercase mx-1">Vitrinas y Alacenas</a>
+        <a href="#cajoneras" class="col-3 col-md-2 text-white btn fw-bold text-uppercase mx-1">Cajoneras</a>
+        <a href="#mas" class="col-3 col-md-2 text-white btn fw-bold text-uppercase mx-1">Más articulos</a>
+    </div>
+
+    <main class="container categorias">
+        <div class="row d-flex justify-content-between aling-items-center">
+
+            <div id="salas" class="categoria-group">
+                <div class="header-categoria my-3 d-flex justify-content-evenly align-items-center">
+                    <h4>Salas</h4>
+                </div>
+
+                <div class="row categoria-items d-flex justify-content-around align-center">
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles60.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles60.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles60.webp" alt="Salas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Sala cafe</h4>
+                            <p>Salas de 3 piezas</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%sala%20cafe" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles61.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles61.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles61.webp" alt="Salas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Sala Azul</h4>
+                            <p>Sala Azul, de 3 piezas</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20sala%20cafe" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles62.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles62.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles62.webp" alt="Salas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Sala Verde</h4>
+                            <p>Sala Verde, de 3 piezas</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20sala%20verde" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles64.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles64.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles64.webp" alt="Salas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Sala verde</h4>
+                            <p>Sala verde, de 3 piezas</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%sala%verde" class="btn">Pedir Información</a>
+                        </div>
+                    </div>   
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles63.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles63.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles63.webp" alt="Salas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Sala Vino</h4>
+                            <p>Sala coor vino, de 3 piezas</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20sala%20vino" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles65.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles65.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles65.webp" alt="Salas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Sala Gris</h4>
+                            <p>Sala color grios, de 3 piezas</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20sala%20gris" class="btn">Pedir Información</a>
+                        </div>
+                    </div>                                 
+
+                </div>
+            </div>
+
+            <div id="recamaras" class="categoria-group">
+                <div class="header-categoria my-3 d-flex justify-content-evenly align-items-center">
+                    <h4>Recamaras</h4>
+                </div>
+
+                <div class="row categoria-items d-flex justify-content-between align-center">
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles20.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles20.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles20.webp" alt="Recamara">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Recamara Holanda KS</h4>
+                            <p>Recamara Holanda King size, incluye: cabecera, tocador, base y buros</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20recamara%20holanda" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles21.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles21.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles21.webp" alt="Recamara">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Recamara Valtimore</h4>
+                            <p>Recamara Holanda Matrimonial y King size, incluye: cabecera, cajonera, base y buros</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20recamara%valtimore" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles22.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles22.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles22.webp" alt="Recamara">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Recamara Domani KS</h4>
+                            <p>Recamara Domani King size, incluye: cabecera, cajonera, base, buros y espejo</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20recamara%20domani" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles23.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles23.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles23.webp" alt="Recamara">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Recamara Argelia Matrimonial</h4>
+                            <p>Recamara Argelia Matrimonial, incluye: cabecera, tocador, base y buros</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20recamara%20argelia%20matrimonial" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles24.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles24.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles24.webp" alt="Recamara">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Recamara Merida KS</h4>
+                            <p>Recamara Argelia King size, incluye: cabecera, tocador, base y buros</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20recamara%20merida%20ks" class="btn">Pedir Información</a>
+                        </div>
+                    </div>                 
+
+                </div>
+            </div>
+
+            <div id="bases" class="categoria-group">
+                <div class="header-categoria my-3 d-flex justify-content-evenly align-items-center">
+                    <h4>Bases tubulares</h4>
+                </div>
+
+                <div class="row categoria-items d-flex justify-content-between align-center">
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles13.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles13.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles13.webp" alt="Bases">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Litera Mixta</h4>
+                            <p>Litera mixta tubular, colores blanco, vino, azul, negro y blanco</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20literal%20mixta" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+    
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles14.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles14.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles14.webp" alt="Bases">
+                        </picture>
+                        <div class="card-body text-center text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle">Literal Individual</h4>
+                            <p>Litera individual tubular, color vino, blanca, cafe, blanca, azul y negra</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20literal%20individual" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+    
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles16.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles16.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles16.webp" alt="Bases">
+                        </picture>
+                        <div class="card-body text-center text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle">Base infividual tubular</h4>
+                            <p>Colores: Vino, blanca, cafe, azul y negra</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20base%20infantil%20tubular" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+    
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles17.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles17.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles17.webp" alt="Bases">
+                        </picture>
+                        <div class="card-body text-center text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle">Base infantil tubular</h4>
+                            <p>Base infantil tubular en rosa y azul</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20base%20infantil%20tubular" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles18.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles18.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles18.webp" alt="Bases">
+                        </picture>
+                        <div class="card-body text-center text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle">Base infantil tubular</h4>
+                            <p>Base infantil tubular en rosa y azul</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20base%20infantil%20tubular" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+
+            <div id="colchones" class="categoria-group">
+                <div class="header-categoria my-3 d-flex justify-content-evenly align-items-center">
+                    <h4>Colchones</h4>
+                    <p class="mx-1">Colchones desde Individual hasta KingSize, Carreiro y Leos</p>
+                </div>
+
+                <div class="row categoria-items d-flex justify-content-between align-center">
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles26.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles26.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles26.webp" alt="Colchones">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Colchón Hotelero Ind</h4>
+                            <p>Colchón tamaño Individual Carreiro</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20colchon%20hotelero" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles25.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles25.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles25.webp" alt="Colchones">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Colchón Hotelero Mat</h4>
+                            <p>Colchón tamaño Matrimonial Carreiro</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20colchon%20hotelero" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles26.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles26.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles26.webp" alt="Colchones">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Colchón Hotelero KS</h4>
+                            <p>Colchón tamaño King Size Carreiro</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20colchon%20hotelero" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="comedores" class="categoria-group">
+                <div class="header-categoria my-3 d-flex justify-content-evenly align-items-center">
+                    <h4>Comedores</h4>
+                </div>
+
+                <div class="row categoria-items d-flex justify-content-between align-center">
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles44.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles44.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles44.webp" alt="Comedor">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Comedor Room</h4>
+                            <p>Comedor Room tubular, con 6 sillas, colores: Vino, blanco, chocolate y vino.</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20comedro%20room" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles43.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles43.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles43.webp" alt="Comedor">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Comedor Greco</h4>
+                            <p>Comedor Greco tubular, con 6 sillas, colores vino, blanco, chocolate y negro.</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20comedro%20greco" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles42.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles42.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles42.webp" alt="Comedor">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Comedor Verona</h4>
+                            <p>Comedor Verona tubular, con 6 sillas, colores: vino, blanco, chocolate y negro.</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%comedor%20verona" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+            <div id="sillas" class="categoria-group">
+                <div class="header-categoria my-3 d-flex justify-content-evenly align-items-center">
+                    <h4>Sillas</h4>
+                </div>
+
+                <div class="row categoria-items d-flex justify-content-between align-center">
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles52.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles52.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles52.webp" alt="Sillas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Silla Greco</h4>
+                            <p>Silla Greco de una pulgada y media, respaldo laminado, tapiz depende de producción</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20silla%20greco" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles53.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles53.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles53.webp" alt="Sillas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Silla Jumbo</h4>
+                            <p>Silla Jumbo de pulgada y media, respaldo laminado, tapiz dependiende de producción</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20silla%jumbo" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles54.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles54.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles54.webp" alt="Sillas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Silla Venecia</h4>
+                            <p>Silla Venecia, de pulgada y media, respaldo laminado, tapiz depende de producción</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20silla%20venecia" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles55.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles55.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles55.webp" alt="Sillas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Silla Tradicional</h4>
+                            <p>Silla tradicional, de pulgada y media, respaldo laminado, tapiz depende de producción.</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20silla%20tradicional" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles56.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles56.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles56.webp" alt="Sillas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Silla Leos</h4>
+                            <p>Silla Leos, de pulgada y media, respaldo laminado, tapiz depende de producción</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20silla%20leos" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles57.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles57.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles57.webp" alt="Sillas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Silla Turin</h4>
+                            <p>Silla Turín, de pulgada y media, respaldo laminado, tapiz depende de producción.</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20silla%20turin" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles58.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles58.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles58.webp" alt="Sillas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Silla Greco Cruz</h4>
+                            <p>Silla Greco, de pulgada y media, respaldo laminado, tapiz depdende de producción.</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20silla%20greco%20cruz" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles59.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles59.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles59.webp" alt="Sillas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Silla Verona</h4>
+                            <p>Silla Verona, de pulgada y meda, respaldo laminado, tapiz depende de producción.</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20silla%20verona" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="vitrinas" class="categoria-group">
+                <div class="header-categoria my-3 d-flex justify-content-evenly align-items-center">
+                    <h4>Vitrinas y Alacenas</h4>
+                </div>
+
+                <div class="row categoria-items d-flex justify-content-between align-center">
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles34.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles34.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles34.webp" alt="Alacena">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Vitrina Chocolate</h4>
+                            <p>Vitrina color chocolate, de 2 piezas, 4 cajones</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20vitrina%20chocolate" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles35.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles35.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles35.webp" alt="Alacena">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Vitrina Blanca</h4>
+                            <p>Vitrina color blanca, de 2 piezas, 2 cajones, 3 puertas</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20vitrina%20blanca" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles36.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles36.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles36.webp" alt="Alacena">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Vitrina Metropolitana Chica</h4>
+                            <p>Vitrina Metropolitana Chica, de 2 puertas, tamaño de 80 x 125 x 42 cm</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20vitrina%20metropolitana%20chica" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles36.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles36.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles36.webp" alt="Alacena">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Vitrina Metropolitana Grande</h4>
+                            <p>Vitrina Metropolitana Grande, de 2 puertas, tamaño de 80 x 168 x 42 cm</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20vitrina%20metropolitana%20grande" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <div id="cajoneras" class="categoria-group">
+                <div class="header-categoria my-3 d-flex justify-content-evenly align-items-center">
+                    <h4>Cajonera</h4>
+                </div>
+
+                <div class="row categoria-items d-flex justify-content-between align-center">
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles30.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles30.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles30.webp" alt="Cajonera">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Cajonera 90</h4>
+                            <p>Cajonera 90, color chocolate, de 5 cajoneras, tamaño: 63x110x40 cm</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20cajonera%2090%20chocolate" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles31.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles31.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles31.webp" alt="Cajonera">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Cajonera 180</h4>
+                            <p>Cajonera 180, color chocolate, de 10 cajones</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20cajonera%20180%20chocolate" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles32.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles32.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles32.webp" alt="Cajonera">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Cajonera Elegante</h4>
+                            <p>Cajonera Elegante, color chocolate, de 5 cajones</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20cajonera%201elegante%20chocolate" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles33.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles33.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles33.webp" alt="Cajonera">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Cajonera Chapala</h4>
+                            <p>Cajonera Chapala, color tabasco, de 5 cajones, tamaño: 105x131x51cm</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20cajonera%20180%20chocolate" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <div id="mas" class="categoria-group">
+                <div class="header-categoria my-3 d-flex justify-content-evenly align-items-center">
+                    <h4>Más articulos</h4>
+                </div>
+
+                <div class="row categoria-items d-flex justify-content-between align-center">
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles01.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles01.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles01.webp" alt="Bueble para baño">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Mueble para Baño</h4>
+                            <p>Mueble para baño tubular, de 180 de altura</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20mueble%20para%20baño%20tubular" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles07.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles07.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles07.webp" alt="Alacena tubular">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Alacena tubular</h4>
+                            <p>Alacena tubular, colores: vino, chocolate, blanco y negro</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20alacena%20tubular%20" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles09.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles09.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles09.webp" alt="Traiana">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Triana</h4>
+                            <p>Traiana, con portagarrafon, colores: vino, blanca y chocolate</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20triana" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles08.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles08.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles08.webp" alt="Maxitriana">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Maxitriana</h4>
+                            <p>Maxitraiana, con portagarrafon, colores: vino, blanca y chocolate</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20maxitriana" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles12.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles12.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles12.webp" alt="Burro tubular">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Burro Tubular</h4>
+                            <p>Burro tubular, colores: Vino, chocolate y blanco</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20burro%20tubular" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles05.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles05.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles05.webp" alt="mesa infantil">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Mesa Infantil</h4>
+                            <p>Mesa infantil, para 4 sillas, de 75 cm de ancho, 43 cm de alto</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20mesa%20infantil" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles48.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles48.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles48.webp" alt="mesa infantil">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Pupitre Infantil</h4>
+                            <p>Pupitre infantil, colores azul y rosa, 110 cm de alto</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20pupitre%20infantil" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles47.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles47.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles47.webp" alt="silla grande">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Silla tibular</h4>
+                            <p>Silla tubular, para 3 personas</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20Silla%20tubular%20grande" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-md-3 my-2">
+                        <picture>
+                            <source src="build/img/muebles/muebles51.webp" type="image/webp">
+                            <source src="build/img/muebles/muebles51.jpg" type="image/jpg">
+                            <img src="build/img/muebles/muebles51.webp" alt="juedo de sillas">
+                        </picture>
+                        <div class="card-body text-white d-flex justify-content-center align-items-center flex-column">
+                            <h4 class="card-tittle text-center">Juego de Silla tibular</h4>
+                            <p>Silla tubular, de 3 piezas</p>
+                            <a href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n%20Silla%20tubular%203%20piezas" class="btn">Pedir Información</a>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-4 d-flex justify-content-center my-1">
+                <picture>
+                    <source src="build/img/logoFull.webp" type="image/webp">
+                    <source src="build/img/logoFull.jpg" type="image/jpg">
+                    <img src="build/img/logoFull.webp" alt="Logo">
+                </picture>
+            </div>
+            <div class="footer-list col-12 col-md-4 text-center my-1">
+                <h4 class="text-white">Productos</h4>
+                <ul>
+                    <li><a href="muebles.html">Muebles</a></li>
+                    <li><a href="lineablanca.html">Linea Blanca</a></li>
+                    <li><a href="electronica.html">Electrónica</a></li>
+                    <li><a href="electronica.html">Electrodomesticos</a></li>
+                    <li><a href="blancos.html">Blancos</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact col-12 col-md-4 my-1">
+                <h4>Contacto</h4>
+                <p><a target="_blank" href="https://api.whatsapp.com/send?phone=525512634362&text=Quisiera%20solicitar%20informaci%C3%B3n"><i class="fab fa-whatsapp"></i>  +52 55 1263 4362</a></p>
+                <p><a target="_blank" href="https://api.whatsapp.com/send?phone=525518155324&text=Quisiera%20solicitar%20informaci%C3%B3n"><i class="fab fa-whatsapp"></i>  +52 55 1815 5234</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="build/js/glider.min.js"></script>
+    <script src="build/js/app.js"></script>
+</body>
+
+</html>
